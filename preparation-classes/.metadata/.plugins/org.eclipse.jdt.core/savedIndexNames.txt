@@ -1,0 +1,4 @@
+INDEX VERSION 1.134+C:\Users\sn880\Desktop\preparation-classes\.metadata\.plugins\org.eclipse.jdt.core
+2271005486.index
+1270362163.index
+1865797976.index

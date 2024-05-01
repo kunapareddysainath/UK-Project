@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="com.preparation.classes.Address"/>
+    <fullyQualifiedTypeName name="com.preparation.classes.UtilityOperations"/>
+    <fullyQualifiedTypeName name="com.preparation.classes.AscendingComparation"/>
+    <fullyQualifiedTypeName name="com.preparation.classes.DescendingComparation"/>
+    <fullyQualifiedTypeName name="com.preparation.classes.Vehcile"/>
+    <fullyQualifiedTypeName name="com.preparation.classes.AirLanes"/>
+    <fullyQualifiedTypeName name="com.preparation.classes.VegMeals"/>
+    <fullyQualifiedTypeName name="com.preparation.classes.NonVegMeals"/>
+    <fullyQualifiedTypeName name="com.preparation.classes.SocialMedia"/>
+    <fullyQualifiedTypeName name="com.preparation.classes.WhatsApps"/>
+    <fullyQualifiedTypeName name="com.preparation.classes.Email"/>
+    <fullyQualifiedTypeName name="com.preparation.classes.MessageSender"/>
+</qualifiedTypeNameHistroy>

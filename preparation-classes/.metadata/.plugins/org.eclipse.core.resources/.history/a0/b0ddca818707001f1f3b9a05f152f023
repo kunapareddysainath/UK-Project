@@ -1,0 +1,83 @@
+package com.preparation.classes;
+
+
+ class User{
+	private String name;
+	 private double age;
+	 private double height;
+	 private Address address;
+	 
+	 
+	 
+	public Address getAddress() {
+		return address;
+	}
+	public void setAddress(Address address) {
+		this.address = address;
+	}
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public double getAge() {
+		return age;
+	}
+	public void setAge(double age) {
+		this.age = age;
+	}
+	public double getHeight() {
+		return height;
+	}
+	public void setHeight(double height) {
+		this.height = height;
+	}
+	 
+	 
+ }
+ 
+ class Address{
+	private String city;
+	private String postCode;
+	private String State;
+	private  String country;
+	public String getCity() {
+		return city;
+	}
+	public void setCity(String city) {
+		this.city = city;
+	}
+	public String getPostCode() {
+		return postCode;
+	}
+	public void setPostCode(String postCode) {
+		this.postCode = postCode;
+	}
+	public String getState() {
+		return State;
+	}
+	public void setState(String state) {
+		State = state;
+	}
+	public String getCountry() {
+		return country;
+	}
+	public void setCountry(String country) {
+		this.country = country;
+	}
+	 
+ }
+
+public class SingleResponsiblityPrinciple {
+	
+	
+	public static void displayUser() {
+		System.out.println(new User().toString());
+	}
+	
+	public static void main(String[] args) {
+		displayUser();
+	}
+
+}

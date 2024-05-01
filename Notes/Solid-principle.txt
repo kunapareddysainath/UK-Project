@@ -1,0 +1,51 @@
+S - single responsibility principle
+O - open closed principle
+L - liskov substitution principle
+I - interface segregation principle
+D - dependency Inversion Principle
+
+#Single responsibility principle: class should have only one reason to change.
+ex: 1. fill details - 1st responsibility
+2. save details - 2nd responsibility
+3. notify - 3rd responsibility
+
+#Open closed principle: objects or entities should be open for extension but closed for modification.
+
+ex: sort example
+
+1. ascending order
+2. descending order
+
+interface Value Comparator ---> compare method which returns a integer value
+
+class Ascending implements Value Comparator ---> value1-value2
+class Descending implements Value Comparator ---> value2-value1
+
+class Utils ---> sort method with arguments array of integers and instance of Value Comparator.
+
+#Liskov substitution principle: objects of super class is replaced with the objects of subclasses
+
+ex: class vehicle ---> start and end methods
+    class bike    ---> start and end method override and implementation changed
+    
+    class card    ---> start and end method override and implementation changed
+    
+class showroom ---> test Drive method with the argument vehicle
+
+#Interface segregation principle: the client never to be forced to implement the interface abstract methods that it don't use.
+
+ex: 
+1. interface hotel ---> has veg meal and non veg meals
+2. class veg hotel implement hotel ---> not need to implement non veg meals but forced to implement.
+3. class non veg hotel implement hotel ---> not need to implement veg meals but forced to implement.
+
+#Dependency Inversion Principle: high level modules should not depend on low level modules, it should depend on abstractions.
+
+ex: class Messager Server ---> send method with two arguments message and to. A constructor with string has argument which helps to create social media.
+
+interface social media ---> send message method with the message and send Id argument
+
+class WhatsApp implement social media ---> implement logic 
+class Instagram implement social media ---> implement logic 
+
+class user Messager ---> create a instance for message server with your preferable media and call send message.
