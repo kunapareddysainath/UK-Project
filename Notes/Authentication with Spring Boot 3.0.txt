@@ -1,0 +1,17 @@
+Authentication with Spring Boot 3.0
+
+Create new Spring boot project
+ 1. web
+ 2. security
+ 3. JPA
+ 4. JWT API
+ 5. JJWT-impl
+ 6. JJWT-Jackson
+
+
+Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c
+
+if Bearer is passed along with the JWt token.
+
+
+Controller <---> Repository <---> DB

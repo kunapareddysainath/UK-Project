@@ -5,7 +5,6 @@ interface SocialMedia{
 	public void sendMessage(String medium, String message);
 }
 
-
 class WhatsApps implements SocialMedia{
 
 	@Override
@@ -53,8 +52,8 @@ public class DependencyInversionPrinciple {
 
 	public static void main(String[] args) {
 		
-		MessageSender messageSender = new MessageSender("whatsapp");
-		messageSender.sendMessageToUser("9638527410", "Solid principle is completed");
+		MessageSender messageSender = new MessageSender("email");
+		messageSender.sendMessageToUser("sainath0323@gmail.com", "Solid principle is completed");
 		
 	}
 	
